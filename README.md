@@ -6,20 +6,20 @@ Juego con retos sencillos de JavaScript para probarte a ti mismo que sabes lo qu
 
 ## Solo 2 Reglas
 
-- Todas las variables deben ser constantes. No uses ni `let` ni `var`, solo `const`.
-- Prohibido usar los bucles: `while` y `for`.
+1. Todas las variables deben ser constantes. No uses ni `let` ni `var`, solo `const`.
+2. Prohibido usar los bucles: `while` y `for`.
 
 ## ¿Cómo se entrega?
 
 Crea un Issue y pégame el código. Encantado te daré retroalimentación.
 
-## Reto 1
+# Reto 1
 
 Crea un `Array` con números de 0 al 10.
 
 **Solución y entrega**: 24 de febrero
 
-## Reto 2
+# Reto 2
 
 A partir del siguiente `Array`.
 
@@ -31,7 +31,7 @@ Elimina el elemento que se encuentra en la posición 3. Insisto: posición 3, no
 
 **Solución y entrega**: 3 de marzo
 
-## Reto 3
+# Reto 3
 
 A partir del siguiente `Array`.
 
