@@ -15,6 +15,8 @@ Crea un Issue y pégame el código. Encantado te daré retroalimentación.
 
 Crea un `Array` con números de 0 al 10.
 
+**Solución y entrega**: 24 de febrero
+
 ## Reto 2
 
 A partir del siguiente `Array`.
@@ -25,7 +27,7 @@ miLista = ["Lisp", "Clojure", "Haskell", "PHP", "Racket"]
 
 Elimina el elemento que se encuentra en la posición 3. Insisto: posición 3, no por el string "PHP".
 
-**Solución y entrega**: 24 de febrero
+**Solución y entrega**: 3 de marzo
 
 ## Reto 3
 
@@ -39,4 +41,4 @@ Obtén el número de elementos que tienen una letra "s" en su nombre.
 
 Si quieres subir el nivel, no uses "length".
 
-**Solución y entrega**: 3 de marzo
+**Solución y entrega**: 10 de marzo
