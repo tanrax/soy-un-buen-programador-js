@@ -2,6 +2,8 @@
 
 Juego con retos sencillos de JavaScript para probarte a ti mismo que sabes lo que haces.
 
+<img src="logo.png" width="250">
+
 ## Solo 2 Reglas
 
 - Todas las variables deben ser constantes. No uses ni `let` ni `var`, solo `const`.
