@@ -44,3 +44,9 @@ Obtén el número de elementos que tienen una letra "s" en su nombre.
 Si quieres subir el nivel, no uses "length".
 
 **Solución y entrega**: 10 de marzo
+
+# Reto 4
+
+Crea una función que elimine los acentos de un `string`. Prohibido usar `Regex` o `replace`.
+
+**Solución y entrega**: 17 de marzo
