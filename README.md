@@ -50,3 +50,11 @@ Si quieres subir el nivel, no uses "length".
 Crea una función que elimine los acentos de un `string`. Prohibido usar `Regex` o `replace`.
 
 **Solución y entrega**: 17 de marzo
+
+# Reto 5
+
+Crea una `Array` que muestre los primeros 10 números de la secuencia de Fibonacci.
+
+¿Subimos el nivel? Crea una función donde le indiques la cantidad de cantidad de números que quieres en la secuencia.
+
+**Solución y entrega**: 24 de marzo
