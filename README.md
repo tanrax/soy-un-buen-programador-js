@@ -55,6 +55,6 @@ Crea una función que elimine los acentos de un `string`. Prohibido usar `Regex`
 
 Crea una `Array` que muestre los primeros 10 números de la secuencia de Fibonacci.
 
-¿Subimos el nivel? Crea una función donde le indiques la cantidad de cantidad de números que quieres en la secuencia.
+¿Subimos el nivel? Crea una función donde le indiques la cantidad de números que quieres en la secuencia.
 
 **Solución y entrega**: 24 de marzo
