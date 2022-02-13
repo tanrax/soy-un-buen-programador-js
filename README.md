@@ -24,7 +24,7 @@ Crea un `Array` con números de 0 al 10.
 A partir del siguiente `Array`.
 
 ```javascript
-miLista = ["Lisp", "Clojure", "Haskell", "PHP", "Racket"]
+const miLista = ["Lisp", "Clojure", "Haskell", "PHP", "Racket"]
 ```
 
 Elimina el elemento que se encuentra en la posición 3. Insisto: posición 3, no por el string "PHP".
@@ -36,7 +36,7 @@ Elimina el elemento que se encuentra en la posición 3. Insisto: posición 3, no
 A partir del siguiente `Array`.
 
 ```javascript
-miLista = ["Lisp", "Clojure", "Haskell", "Elm", "Racket", "Swift", "Erlang", "Scala"]
+const miLista = ["Lisp", "Clojure", "Haskell", "Elm", "Racket", "Swift", "Erlang", "Scala"]
 ```
 
 Obtén el número de elementos que tienen una letra "s" en su nombre. 
