@@ -13,13 +13,17 @@ Juego con retos sencillos de JavaScript para probarte a ti mismo que sabes lo qu
 
 Crea un Issue y pégame el código. Encantado te daré retroalimentación.
 
-# Reto 1
+# 🟩 Reto 1
 
 Crea un `Array` con números de 0 al 10.
 
 **Solución y entrega**: 24 de febrero
 
-# Reto 2
+☝🏻 -------------- Actuales -------------- ☝🏻
+
+👇🏻 -------------- Futuras -------------- 👇🏻
+
+# 🟩 Reto 2
 
 A partir del siguiente `Array`.
 
@@ -31,7 +35,7 @@ Elimina el elemento que se encuentra en la posición 3. Insisto: posición 3, no
 
 **Solución y entrega**: 3 de marzo
 
-# Reto 3
+# 🟩 Reto 3
 
 A partir del siguiente `Array`.
 
@@ -45,16 +49,22 @@ Si quieres subir el nivel, no uses "length".
 
 **Solución y entrega**: 10 de marzo
 
-# Reto 4
+# 🟩 Reto 4
 
 Crea una función que elimine los acentos de un `string`. Prohibido usar `Regex` o `replace`.
 
 **Solución y entrega**: 17 de marzo
 
-# Reto 5
+# 🟩 Reto 5
 
 Crea una `Array` que muestre los primeros 10 números de la secuencia de Fibonacci.
 
 ¿Subimos el nivel? Crea una función donde le indiques la cantidad de números que quieres en la secuencia.
 
 **Solución y entrega**: 24 de marzo
+
+# 🟩 Reto 6
+
+Crea una `Array` con 10 números aleatorios enteros sin que se repitan y estén ordenados de menos a mayor.
+
+**Solución y entrega**: 31 de marzo
