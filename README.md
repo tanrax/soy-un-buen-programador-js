@@ -70,3 +70,20 @@ Crea una `Array` que muestre los primeros 10 números de la secuencia de Fibonac
 Crea una `Array` con 10 números aleatorios enteros sin que se repitan y estén ordenados de menos a mayor.
 
 **Solución y entrega**: 31 de marzo
+
+## 🟩 Reto 7
+
+Crea una función que mueva elementos dentro de una `Array`. Por ejemplo, si quisiera mover Scala, que esta en la posición 7, a la posición 1: 
+
+``` javascript
+const miLista = ["Lisp", "Clojure", "Haskell", "Elm", "Racket", "Swift", "Erlang", "Scala"]
+
+moverElemento(7, 1, miLista);
+
+// ["Lisp", "Scala", "Clojure", "Haskell", "Elm", "Racket", "Swift", "Erlang"]
+
+```
+
+Como puedes observar, no solo se han intercambiado, sino que el resto de elementos se han movido para hacerle sitio.
+
+**Solución y entrega**: 7 de abril
