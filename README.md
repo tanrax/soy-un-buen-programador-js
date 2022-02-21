@@ -25,7 +25,24 @@ Espacio cuantico 📦 🐈
 
 # 👇🏻 -------------- Futuras (NO hacer) -------------- 👇🏻
 
+
 ## 🟩 Reto 2
+
+A partir del siguiente `Array`.
+
+```javascript
+const miLista = [1, 9, 87, 3, 10, 4, 20, 2, 45];
+```
+
+Crea una nueva lista con números de 1 digito.
+
+```javascript
+// [1, 9, 3, 4, 2];
+```
+
+**Solución y entrega**: 3 de marzo
+
+## 🟩 Reto 3
 
 A partir del siguiente `Array`.
 
@@ -35,9 +52,9 @@ const miLista = ["Lisp", "Clojure", "Haskell", "PHP", "Racket"]
 
 Elimina el elemento que se encuentra en la posición 3. Insisto: posición 3, no por el string "PHP".
 
-**Solución y entrega**: 3 de marzo
+**Solución y entrega**: 10 de marzo
 
-## 🟩 Reto 3
+## 🟩 Reto 4
 
 A partir del siguiente `Array`.
 
@@ -49,29 +66,29 @@ Obtén el número de elementos que tienen una letra "s" en su nombre.
 
 Si quieres subir el nivel, no uses "length".
 
-**Solución y entrega**: 10 de marzo
-
-## 🟩 Reto 4
-
-Crea una función que elimine los acentos de un `string`. Prohibido usar `Regex` o `replace`.
-
 **Solución y entrega**: 17 de marzo
 
 ## 🟩 Reto 5
 
-Crea una `Array` que muestre los primeros 10 números de la secuencia de Fibonacci.
-
-¿Subimos el nivel? Crea una función donde le indiques la cantidad de números que quieres en la secuencia.
+Crea una función que elimine los acentos de un `string`. Prohibido usar `Regex` o `replace`.
 
 **Solución y entrega**: 24 de marzo
 
 ## 🟩 Reto 6
 
-Crea una `Array` con 10 números aleatorios enteros sin que se repitan y estén ordenados de menos a mayor.
+Crea una `Array` que muestre los primeros 10 números de la secuencia de Fibonacci.
+
+¿Subimos el nivel? Crea una función donde le indiques la cantidad de números que quieres en la secuencia.
 
 **Solución y entrega**: 31 de marzo
 
 ## 🟩 Reto 7
+
+Crea una `Array` con 10 números aleatorios enteros sin que se repitan y estén ordenados de menos a mayor.
+
+**Solución y entrega**: 7 de abril
+
+## 🟩 Reto 8
 
 Crea una función que mueva elementos dentro de una `Array`. Por ejemplo, si quisiera mover Scala, que esta en la posición 7, a la posición 1: 
 
@@ -86,4 +103,4 @@ moverElemento(7, 1, miLista);
 
 Como puedes observar, no solo se han intercambiado, sino que el resto de elementos se han movido para hacerle sitio.
 
-**Solución y entrega**: 7 de abril
+**Solución y entrega**: 14 de abril
