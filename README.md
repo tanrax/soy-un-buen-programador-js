@@ -13,11 +13,22 @@ Juego con retos sencillos de JavaScript para probarte a ti mismo que sabes lo qu
 
 Crea un Issue y pégame el código. Encantado te daré retroalimentación.
 
-## 🟩 Reto 1
+## ✅ Reto 1
 
 Crea un `Array` con números de 0 al 10.
 
-**Solución y entrega**: 24 de febrero
+**Solución y entrega**: ~~24 de febrero~~ 
+
+```javascript
+// Forma 1 - La más equilibrada en recursos.
+Array(11).fill().map((valor, indice) => indice);
+
+// Forma 2
+[...Array(11).keys()]
+
+// Forma 3
+Array.from({length: iterations}, (v, i) => i);
+```
 
 # ☝🏻 -------------- Actuales (Hacer) -------------- ☝🏻
 
