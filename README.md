@@ -30,13 +30,6 @@ Array(11).fill().map((valor, indice) => indice);
 Array.from({length: iterations}, (v, i) => i);
 ```
 
-# ☝🏻 -------------- Actuales (Hacer) -------------- ☝🏻
-
-Espacio cuantico 📦 🐈
-
-# 👇🏻 -------------- Futuras (NO hacer) -------------- 👇🏻
-
-
 ## 🟩 Reto 2
 
 A partir del siguiente `Array`.
@@ -52,6 +45,13 @@ Crea una nueva lista con números de 1 digito.
 ```
 
 **Solución y entrega**: 3 de marzo
+
+
+# ☝🏻 -------------- Actuales (Hacer) -------------- ☝🏻
+
+Espacio cuantico 📦 🐈
+
+# 👇🏻 -------------- Futuras (NO hacer) -------------- 👇🏻
 
 ## 🟩 Reto 3
 
