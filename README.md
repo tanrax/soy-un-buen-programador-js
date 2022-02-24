@@ -19,6 +19,8 @@ Crea un `Array` con números de 0 al 10.
 
 **Solución**: ~~24 de febrero~~ 
 
+Videoexplicación: https://youtu.be/ROijmck2a6w
+
 ```javascript
 // Forma 1 - La más equilibrada en recursos.
 Array(11).fill().map((valor, indice) => indice);
