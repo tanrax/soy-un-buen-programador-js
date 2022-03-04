@@ -32,7 +32,7 @@ Array(11).fill().map((valor, indice) => indice);
 Array.from({length: 11}, (v, i) => i);
 ```
 
-## 🟩 Reto 2
+## ✅ Reto 2
 
 A partir del siguiente `Array`.
 
@@ -48,13 +48,6 @@ Crea una nueva lista con números de 1 digito.
 
 **Solución**: 3 de marzo
 
-
-# ☝🏻 -------------- Actuales (Hacer) -------------- ☝🏻
-
-Espacio cuantico 📦 🐈
-
-# 👇🏻 -------------- Futuras (NO hacer) -------------- 👇🏻
-
 ## 🟩 Reto 3
 
 A partir del siguiente `Array`.
@@ -66,6 +59,12 @@ const miLista = ["Lisp", "Clojure", "Haskell", "PHP", "Racket"]
 Elimina el elemento que se encuentra en la posición 3. Insisto: posición 3, no por el string "PHP".
 
 **Solución**: 10 de marzo
+
+# ☝🏻 ------ Actuales (Hacer) ------ ☝🏻
+
+Espacio cuantico 📦 🐈
+
+# 👇🏻 ---- Futuras (NO hacer) ------ 👇🏻
 
 ## 🟩 Reto 4
 
