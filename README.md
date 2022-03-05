@@ -48,6 +48,8 @@ Crea una nueva lista con números de 1 digito.
 
 **Solución**: ~~3 de marzo~~ 
 
+Videoexplicación: https://youtu.be/OfUt_BjoGcg
+
 ```javascript
 const miLista = [1, 9, 87, 3, 10, 4, 20, 2, 45];
 const miLista1Decimal = miLista.filter((numero) => /\b-?[0-9]\b/.test(numero));
