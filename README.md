@@ -65,13 +65,15 @@ const miLista = ["Lisp", "Clojure", "Haskell", "PHP", "Racket"]
 
 Elimina el elemento que se encuentra en la posición 3. Insisto: posición 3, no por el string "PHP".
 
-**Solución**: 10 de marzo
+**Solución**: ~~10 de marzo~~
 
-# ☝🏻 ------ Actuales (Hacer) ------ ☝🏻
+```javascript
+const miLista = ["Lisp", "Clojure", "Haskell", "PHP", "Racket"]
 
-Espacio cuantico 📦 🐈
-
-# 👇🏻 ---- Futuras (NO hacer) ------ 👇🏻
+const miListaSinPHP = semana.filter(function(valor, indice) {
+    return indice !== 3
+});
+```
 
 ## 🟩 Reto 4
 
@@ -86,6 +88,12 @@ Obtén el número de elementos que tienen una letra "s" en su nombre.
 Si quieres subir el nivel, no uses "length".
 
 **Solución**: 17 de marzo
+
+# ☝🏻 ------ Actuales (Hacer) ------ ☝🏻
+
+Espacio cuantico 📦 🐈
+
+# 👇🏻 ---- Futuras (NO hacer) ------ 👇🏻
 
 ## 🟩 Reto 5
 
