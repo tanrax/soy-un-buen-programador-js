@@ -55,7 +55,7 @@ const miLista = [1, 9, 87, 3, 10, 4, 20, 2, 45];
 const miLista1Decimal = miLista.filter((numero) => /\b-?[0-9]\b/.test(numero));
 ```
 
-## 🟩 Reto 3
+## ✅ Reto 3
 
 A partir del siguiente `Array`.
 
