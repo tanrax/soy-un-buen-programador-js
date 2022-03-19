@@ -87,19 +87,19 @@ Obtén el número de elementos que contienen una letra "s" en su valor (o una "s
 
 Si quieres subir el nivel, no uses "length".
 
-**Solución**: 17 de marzo
-
-# ☝🏻 ------ Actuales (Hacer) ------ ☝🏻
-
-Espacio cuantico 📦 🐈
-
-# 👇🏻 ---- Futuras (NO hacer) ------ 👇🏻
+**Solución**: ~~17 de marzo~~
 
 ## 🟩 Reto 5
 
 Crea una función que elimine los acentos de un `string`. Prohibido usar `Regex` o `replace`.
 
 **Solución**: 24 de marzo
+
+# ☝🏻 ------ Actuales (Hacer) ------ ☝🏻
+
+Espacio cuantico 📦 🐈
+
+# 👇🏻 ---- Futuras (NO hacer) ------ 👇🏻
 
 ## 🟩 Reto 6
 
