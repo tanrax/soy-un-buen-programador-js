@@ -89,6 +89,23 @@ Si quieres subir el nivel, no uses "length".
 
 **Solución**: ~~17 de marzo~~
 
+```javascript
+// Solución 1 - Larga
+const miLista = [ "Lisp", "Clojure", "Haskell", "Elm", "Racket", "Swift", "Erlang", "Scala" ];
+const letra = "s";
+
+const resultado = miLista
+  .filter((texto) => texto.toUpperCase().includes(letra.toUpperCase()))
+  .reduce((contador) => (contador += 1), 0);
+// 4
+
+// Solucion 2 - Corta
+const resultado = miLista
+  .filter((texto) => /s/i.test(texto))
+  .reduce((contador) => (contador += 1), 0);
+// 4
+```
+
 ## 🟩 Reto 5
 
 Crea una función que elimine los acentos de un `string`. Prohibido usar `Regex` o `replace`.
