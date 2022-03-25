@@ -75,7 +75,7 @@ const miListaSinPHP = semana.filter(function(valor, indice) {
 });
 ```
 
-## 🟩 Reto 4
+## ✅ Reto 4
 
 A partir del siguiente `Array`.
 
@@ -106,17 +106,54 @@ const resultado = miLista
 // 4
 ```
 
-## 🟩 Reto 5
+## ✅ Reto 5
 
 Crea una función que elimine los acentos de un `string`. Prohibido usar `Regex` o `replace`.
 
-**Solución**: 24 de marzo
+**Solución**: ~~24 de marzo~~
 
-# ☝🏻 ------ Actuales (Hacer) ------ ☝🏻
+``` javascript
+/**
+ * Devuelve un texto sin acentos
+ * @param {string} text - Texto con acentos.
+ * @return {string}
+ */
+function removeAccents(text) {
+  const sustitutions = {
+    àáâãäå: "a",
+    ÀÁÂÃÄÅ: "A",
+    èéêë: "e",
+    ÈÉÊË: "E",
+    ìíîï: "i",
+    ÌÍÎÏ: "I",
+    òóôõö: "o",
+    ÒÓÔÕÖ: "O",
+    ùúûü: "u",
+    ÙÚÛÜ: "U",
+    ýÿ: "y",
+    ÝŸ: "Y",
+    ß: "ss",
+    ñ: "n",
+    Ñ: "N"
+  };
+  // Devuelve un valor si 'letter' esta incluido en la clave
+  function getLetterReplacement(letter, replacements) {
+    const findKey = Object.keys(replacements).reduce(
+      (origin, item, index) => (item.includes(letter) ? item : origin),
+      false
+    );
+    return findKey !== false ? replacements[findKey] : letter;
+  }
+  // Recorre letra por letra en busca de una sustitución
+  return text
+    .split("")
+    .map((letter) => getLetterReplacement(letter, sustitutions))
+    .join("");
+}
 
-Espacio cuantico 📦 🐈
-
-# 👇🏻 ---- Futuras (NO hacer) ------ 👇🏻
+removeAccents("El bárbaro entró en cólera");
+// "El barbaro entro en colera"
+```
 
 ## 🟩 Reto 6
 
@@ -125,6 +162,12 @@ Crea una `Array` que muestre los primeros 10 números de la secuencia de Fibonac
 ¿Subimos el nivel? Crea una función donde le indiques la cantidad de números que quieres en la secuencia.
 
 **Solución**: 31 de marzo
+
+# ☝🏻 ------ Actuales (Hacer) ------ ☝🏻
+
+Espacio cuantico 📦 🐈
+
+# 👇🏻 ---- Futuras (NO hacer) ------ 👇🏻
 
 ## 🟩 Reto 7
 
