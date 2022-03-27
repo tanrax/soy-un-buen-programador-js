@@ -13,10 +13,10 @@ Juego con retos sencillos de JavaScript para probarte a ti mismo que sabes lo qu
 
 Crea un Issue y pégame el código. Encantado te daré retroalimentación.
 
-## ¿Cual es la recompensa?
+## ¿Cuál es la recompensa?
 
 - Si haces ejercicios: Mi feedback.
-- Si completas todos: Un diploma donde certifico tus habilidades.
+- Si completas todos los ejercicios correctamente: Un diploma donde personalmente certifico tus habilidades.
 
 ## ✅ Reto 1
 
