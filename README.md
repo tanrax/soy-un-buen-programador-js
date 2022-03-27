@@ -13,6 +13,11 @@ Juego con retos sencillos de JavaScript para probarte a ti mismo que sabes lo qu
 
 Crea un Issue y pégame el código. Encantado te daré retroalimentación.
 
+## ¿Cual es la recompensa?
+
+- Si haces ejercicios: Mi feedback.
+- Si completas todos: Un diploma donde certifico tus habilidades.
+
 ## ✅ Reto 1
 
 Crea un `Array` con números de 0 al 10.
