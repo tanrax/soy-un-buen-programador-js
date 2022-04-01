@@ -160,7 +160,7 @@ removeAccents("El bárbaro entró en cólera");
 // "El barbaro entro en colera"
 ```
 
-## 🟩 Reto 6
+## ✅ Reto 6
 
 Crea una `Array` que muestre los primeros 10 números de la secuencia de Fibonacci.
 
