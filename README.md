@@ -166,19 +166,42 @@ Crea una `Array` que muestre los primeros 10 números de la secuencia de Fibonac
 
 ¿Subimos el nivel? Crea una función donde le indiques la cantidad de números que quieres en la secuencia.
 
-**Solución**: 31 de marzo
+**Solución**: ~~31 de marzo~~ 
 
-# ☝🏻 ------ Actuales (Hacer) ------ ☝🏻
+``` javascript
+/**
+ * Devuelve una lista con la secuencia de Fibonacci
+ * @param {number} long - Número de elementos deseados.
+ * @param {Array<number>} sequence - Secuencia inicial.
+ * @return {Array<number>}
+ */
+function generate_fibonacci_sequence(long, sequence = [0, 1]) {
+  return sequence.length < long
+    ? generate_fibonacci_sequence(
+        long,
+        sequence.concat(sequence.at(-1) + sequence.at(-2))
+      )
+    : sequence;
+}
 
-Espacio cuantico 📦 🐈
+generate_fibonacci_sequence(4);
+// [0, 1, 1, 2]
 
-# 👇🏻 ---- Futuras (NO hacer) ------ 👇🏻
+generate_fibonacci_sequence(10);
+// [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+```
 
 ## 🟩 Reto 7
 
 Crea una `Array` con 10 números aleatorios enteros sin que se repitan y estén ordenados de menor a mayor.
 
 **Solución**: 7 de abril
+
+# ☝🏻 ------ Actuales (Hacer) ------ ☝🏻
+
+Espacio cuantico 📦 🐈
+
+# 👇🏻 ---- Futuras (NO hacer) ------ 👇🏻
 
 ## 🟩 Reto 8
 
