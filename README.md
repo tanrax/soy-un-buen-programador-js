@@ -191,7 +191,7 @@ generate_fibonacci_sequence(10);
 // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 ```
 
-## 🟩 Reto 7
+## ✅ Reto 7
 
 Crea una `Array` con 10 números aleatorios enteros sin que se repitan y estén ordenados de menor a mayor.
 
