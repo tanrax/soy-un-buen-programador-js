@@ -195,13 +195,20 @@ generate_fibonacci_sequence(10);
 
 Crea una `Array` con 10 números aleatorios enteros sin que se repitan y estén ordenados de menor a mayor.
 
-**Solución**: 7 de abril
+**Solución**: ~~7 de abril~~
 
-# ☝🏻 ------ Actuales (Hacer) ------ ☝🏻
+``` javascript
+function obtenerListaAleatoria(longitud, lista=[]) {
+	const randomInt = parseInt(Math.random() * 100);
+	const nuevaListaConRandomInt = lista.concat(randomInt);
+	const nuevaListaSinRepetidos = [...(new Set(nuevaListaConRandomInt))];
+	const nuevaListaOrdenada = nuevaListaSinRepetidos.sort((a, b) => a - b);
+	return longitud <= lista.length ? lista : obtenerListaAleatoria(longitud, nuevaListaOrdenada);
+}
 
-Espacio cuantico 📦 🐈
-
-# 👇🏻 ---- Futuras (NO hacer) ------ 👇🏻
+console.log(obtenerListaAleatoria(10));
+// [ 6, 26, 35, 41, 43, 60, 61, 67, 88, 93 ]
+```
 
 ## 🟩 Reto 8
 
