@@ -225,4 +225,26 @@ moverElemento(7, 1, miLista);
 
 Como puedes observar, no solo se han intercambiado, sino que el resto de elementos se han movido para hacerle sitio.
 
-**Solución y entrega**: 14 de abril
+**Solución y entrega**: ~~14 de abril~~
+
+``` javascript
+function moverElemento(
+    indexFrom,
+    indexTo,
+    list
+) {
+    // Guarda el elemento a mover
+    const moveValue = list[index];
+    // Crea una lista sin el elemento a mover
+    const listNotValue = list.filter(
+        (currentValue, currentIndex) => currentIndex != index
+    );
+    // Concadena todos los fragmentos: inicio del array + elemento + resto del array
+    return listNotValue
+        .slice(0, newPosition)
+        .concat(moveValue, listNotValue.slice(newPosition));
+}
+
+moverElemento(7, 1, miLista);
+// ["Lisp", "Scala", "Clojure", "Haskell", "Elm", "Racket", "Swift", "Erlang"]
+```
