@@ -22,7 +22,7 @@ Crea un Issue y pégame el código. Encantado te daré retroalimentación.
 
 Crea un `Array` con números de 0 al 10.
 
-**Solución**: ~~24 de febrero~~ 
+**Solución**:
 
 Videoexplicación: https://youtu.be/ROijmck2a6w
 
@@ -51,7 +51,7 @@ Crea una nueva lista con números de 1 digito.
 // [1, 9, 3, 4, 2];
 ```
 
-**Solución**: ~~3 de marzo~~ 
+**Solución**:
 
 Videoexplicación: https://youtu.be/OfUt_BjoGcg
 
@@ -70,7 +70,7 @@ const miLista = ["Lisp", "Clojure", "Haskell", "PHP", "Racket"]
 
 Elimina el elemento que se encuentra en la posición 3. Insisto: posición 3, no por el string "PHP".
 
-**Solución**: ~~10 de marzo~~
+**Solución**:
 
 ```javascript
 const miLista = ["Lisp", "Clojure", "Haskell", "PHP", "Racket"]
@@ -92,7 +92,7 @@ Obtén el número de elementos que contienen una letra "s" en su valor (o una "s
 
 Si quieres subir el nivel, no uses "length".
 
-**Solución**: ~~17 de marzo~~
+**Solución**:
 
 ```javascript
 // Solución 1 - Larga
@@ -115,7 +115,7 @@ const resultado = miLista
 
 Crea una función que elimine los acentos de un `string`. Prohibido usar `Regex` o `replace`.
 
-**Solución**: ~~24 de marzo~~
+**Solución**:
 
 ``` javascript
 /**
@@ -166,7 +166,7 @@ Crea una `Array` que muestre los primeros 10 números de la secuencia de Fibonac
 
 ¿Subimos el nivel? Crea una función donde le indiques la cantidad de números que quieres en la secuencia.
 
-**Solución**: ~~31 de marzo~~ 
+**Solución**:
 
 ``` javascript
 /**
@@ -195,7 +195,7 @@ generate_fibonacci_sequence(10);
 
 Crea una `Array` con 10 números aleatorios enteros sin que se repitan y estén ordenados de menor a mayor.
 
-**Solución**: ~~7 de abril~~
+**Solución**:
 
 ``` javascript
 function obtenerListaAleatoria(longitud, lista=[]) {
@@ -210,7 +210,7 @@ console.log(obtenerListaAleatoria(10));
 // [ 6, 26, 35, 41, 43, 60, 61, 67, 88, 93 ]
 ```
 
-## 🟩 Reto 8
+## ✅ Reto 8
 
 Crea una función que mueva elementos dentro de una `Array`. Por ejemplo, si quisiera mover Scala, que esta en la posición 7, a la posición 1: 
 
@@ -225,7 +225,7 @@ moverElemento(7, 1, miLista);
 
 Como puedes observar, no solo se han intercambiado, sino que el resto de elementos se han movido para hacerle sitio.
 
-**Solución y entrega**: ~~14 de abril~~
+**Solución**:
 
 ``` javascript
 function moverElemento(
